@@ -221,6 +221,7 @@ a{
 .project .box{
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 64px;
 }
 .project .get-in-touch{
     margin-right: 40px;
@@ -237,24 +238,88 @@ a{
      left: 120px;
 
 }
-.project .col-lg-8{
+.project .project-content{
     position: relative;
     overflow: hidden;
 }
+
 .project .overly{
     width: 52%;
     height: 100%;
-    background: red;
+    background-image: linear-gradient(300deg,#1C1E53 ,#1c1e536b);
     position: absolute;
     top: 0;
     left: -52%;
     transition: .4s;
+    padding-top: 312px;
+    padding-left: 48px;
+    padding-right: 35px;
+    color: white;
 }
-.project .col-lg-8:hover .overly{
+.project .project-content:hover .overly{
     left: 0;
 
 }
 
+.project .col-lg-4 img:last-child{
+    margin-top: 30px;
+}
+
 /* ======================
          Project part end
+======================== */
+/* ======================
+         Feature part start
+======================== */
+.feature{
+    background: #F4F6FC;
+    padding: 128px 0px;
+}
+.feature .row{
+    row-gap: 24px;
+    padding-top: 47px;
+}
+
+.feature .common-title h2{
+    width: 630px;
+    margin: auto;
+    text-align: center;
+}
+.feature .common-title p{
+    font-weight: 500;
+    text-align: center;
+    width: auto;
+}
+.feature .card{
+    padding-top: 58px;
+    padding-bottom: 48px;
+    padding-left: 48px;
+    padding-right: 32px;
+    border: 0px;
+    border-radius: 0px;
+  
+}
+.feature .card .card-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    padding-top: 22px;
+    padding-bottom: 12px;
+}
+.feature .card .card-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    width: 324px;
+}
+.feature img{
+    width: 8%;
+}
+.feature .card-body{
+    padding: 0px !important;
+}
+/* ======================
+         Feature part end
 ======================== */
