@@ -1,17 +1,17 @@
 
-
 /* ======================
          common css
 ======================== */
-nav{
+nav {
     background: #1C1E53;
     padding: 16px 0px;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
-.common-title h2{
+.common-title h2 {
     font-size: 48px;
     font-weight: 600;
     color: #282938;
@@ -20,43 +20,49 @@ a{
 
 
 }
-.common-title p{
+
+.common-title p {
     font-size: 16px;
     font-weight: 400;
     color: #282938;
     font-family: "Poppins", sans-serif;
     width: 405px;
     line-height: 28px;
-   
-}
-.box{
-    display: flex;
-   
+
 }
 
- .get-in-touch{
+.box {
+    display: flex;
+
+}
+
+.get-in-touch {
     position: relative;
 }
-.get-in-touch a{
+
+.get-in-touch a {
     color: #2405F2;
     font-size: 18px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-    
+
 }
-.get-in-touch i{
+
+.get-in-touch i {
     color: #2405F2;
     position: absolute;
     top: 50%;
     left: 190px;
     transform: translateY(-50%);
     transition: .4s;
-    
-}
-.get-in-touch:hover i{
-     left: 210px;
 
 }
+
+.get-in-touch:hover i {
+    left: 210px;
+
+}
+
 /* ======================
          common css
 ======================== */
@@ -67,8 +73,8 @@ a{
 
 
 
-.nav-btn{
-    border: 1px solid rgba(244, 246, 252,0.20);
+.nav-btn {
+    border: 1px solid rgba(244, 246, 252, 0.20);
     border-radius: 41px;
     color: white;
     padding: 16px 48px;
@@ -76,13 +82,14 @@ a{
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     margin-left: 48px;
+    display: inline-block;
 }
 
-.navbar-nav{
-      column-gap: 32px;
+.navbar-nav {
+    column-gap: 32px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 16px;
     font-weight: 500;
     color: #BBBBCB;
@@ -90,8 +97,10 @@ a{
     transition: .4s;
     padding-right: 0px !important;
     padding-left: 0px !important;
+    display: inline-block;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #FFFFFF;
 }
 
@@ -102,25 +111,28 @@ a{
 /* ======================
          Banner part start
 ======================== */
-.banner{
+.banner {
     background: #1C1E53;
     padding: 126px 0px;
 }
-.box{
+
+.box {
     align-items: center;
 }
-.banner h1{
-     font-size: 54px;
+
+.banner h1 {
+    font-size: 54px;
     font-weight: 600;
     color: #fff;
     font-family: "Poppins", sans-serif;
     line-height: 74px;
 
 }
-.banner p{
-     font-size: 16px;
+
+.banner p {
+    font-size: 16px;
     font-weight: 500;
-    color: rgba(255, 255, 255,0.70);
+    color: rgba(255, 255, 255, 0.70);
     font-family: "Poppins", sans-serif;
     line-height: 28px;
     padding-top: 24px;
@@ -128,8 +140,10 @@ a{
     width: 562px;
 
 }
-.banner .banner-btn{
-    background: #FCD980;;
+
+.banner .banner-btn {
+    background: #FCD980;
+    ;
     border: 1px solid transparent;
     border-radius: 41px;
     color: black;
@@ -139,18 +153,20 @@ a{
     font-family: "Poppins", sans-serif;
     transition: .4s;
     display: inline-block;
-    
+
 
 }
-.banner .banner-btn:hover{
-     background: transparent;
-     border-color: #FCD980;
-     color: #FCD980;
-   
+
+.banner .banner-btn:hover {
+    background: transparent;
+    border-color: #FCD980;
+    color: #FCD980;
+
 
 }
-.banner .banner-btn-pricing{
-     color: white;
+
+.banner .banner-btn-pricing {
+    color: white;
     font-size: 16px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
@@ -160,10 +176,12 @@ a{
     display: inline-block;
 
 }
-.banner .banner-btn-pricing:hover{
+
+.banner .banner-btn-pricing:hover {
     overflow: visible;
 }
-.banner .banner-btn-pricing i{
+
+.banner .banner-btn-pricing i {
     position: absolute;
     top: 50%;
     right: -30px;
@@ -171,7 +189,8 @@ a{
     transition: .4s;
     opacity: 0;
 }
-.banner .banner-btn-pricing:hover i{
+
+.banner .banner-btn-pricing:hover i {
     right: -50px;
     opacity: 1;
 }
@@ -182,33 +201,36 @@ a{
 /* ======================
          Work part start
 ======================== */
-.work{
+.work {
     padding: 128px 0px;
     background: #F4F6FC;
 }
 
-.work .col-lg-7 .row{
+.work .col-lg-7 .row {
     row-gap: 48px;
 }
-.work .col-lg-7 h3{
-     color: #282938;
+
+.work .col-lg-7 h3 {
+    color: #282938;
     font-size: 32px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     padding-top: 16px;
     padding-bottom: 8px;
-    
-    
+
+
 }
-.work .col-lg-7 p{
+
+.work .col-lg-7 p {
     color: #282938;
     font-size: 16px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     width: 295px;
-    
-    
+
+
 }
+
 /* ======================
          Work part end
 ======================== */
@@ -218,35 +240,41 @@ a{
 .project {
     padding: 128px 0px;
 }
-.project .box{
+
+.project .box {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 64px;
 }
-.project .get-in-touch{
+
+.project .get-in-touch {
     margin-right: 40px;
 }
-.project .get-in-touch a{
+
+.project .get-in-touch a {
     color: #282938;
 }
-.project .get-in-touch i{
-   left: 100px;
-   color: #282938;
-    
-}
-.project .get-in-touch:hover i{
-     left: 120px;
+
+.project .get-in-touch i {
+    left: 100px;
+    color: #282938;
 
 }
-.project .project-content{
+
+.project .get-in-touch:hover i {
+    left: 120px;
+
+}
+
+.project .project-content {
     position: relative;
     overflow: hidden;
 }
 
-.project .overly{
+.project .overly {
     width: 52%;
     height: 100%;
-    background-image: linear-gradient(300deg,#1C1E53 ,#1c1e536b);
+    background-image: linear-gradient(300deg, #1C1E53, #1c1e536b);
     position: absolute;
     top: 0;
     left: -52%;
@@ -256,12 +284,13 @@ a{
     padding-right: 35px;
     color: white;
 }
-.project .project-content:hover .overly{
+
+.project .project-content:hover .overly {
     left: 0;
 
 }
 
-.project .col-lg-4 img:last-child{
+.project .col-lg-4 img:last-child {
     margin-top: 30px;
 }
 
@@ -271,35 +300,39 @@ a{
 /* ======================
          Feature part start
 ======================== */
-.feature{
+.feature {
     background: #F4F6FC;
     padding: 128px 0px;
 }
-.feature .row{
+
+.feature .row {
     row-gap: 24px;
     padding-top: 47px;
 }
 
-.feature .common-title h2{
+.feature .common-title h2 {
     width: 630px;
     margin: auto;
     text-align: center;
 }
-.feature .common-title p{
+
+.feature .common-title p {
     font-weight: 500;
     text-align: center;
     width: auto;
 }
-.feature .card{
+
+.feature .card {
     padding-top: 58px;
     padding-bottom: 48px;
     padding-left: 48px;
     padding-right: 32px;
     border: 0px;
     border-radius: 0px;
-  
+
 }
-.feature .card .card-title{
+
+.feature .card .card-title {
     font-size: 24px;
     font-weight: 500;
     color: #282938;
@@ -307,19 +340,23 @@ a{
     padding-top: 22px;
     padding-bottom: 12px;
 }
-.feature .card .card-text{
+
+.feature .card .card-text {
     font-size: 16px;
     font-weight: 400;
     color: #282938;
     font-family: "Poppins", sans-serif;
     width: 324px;
 }
-.feature img{
+
+.feature img {
     width: 8%;
 }
-.feature .card-body{
+
+.feature .card-body {
     padding: 0px !important;
 }
+
 /* ======================
          Feature part end
 ======================== */
@@ -327,23 +364,26 @@ a{
          FAQ part start
 ======================== */
 
-.faq{
+.faq {
     padding: 128px 0px;
 }
+
 .faq .common-title h2 {
     font-size: 38px;
     width: 330px;
-   
+
 }
 
-.faq .get-in-touch i{
+.faq .get-in-touch i {
     left: 232px;
 }
-.faq .get-in-touch:hover i{
+
+.faq .get-in-touch:hover i {
     left: 252px;
 
 }
-.faq .accordion-item{
+
+.faq .accordion-item {
     border: 0px;
 }
 
@@ -351,17 +391,18 @@ a{
 
 
 
-.faq .accordion-header{
+.faq .accordion-header {
 
     border: 0px !important;
     padding: 15px 0px;
 }
-.faq .accordion-button.collapsed{
+
+.faq .accordion-button.collapsed {
     background-color: transparent !important;
 }
 
 
-.faq .accordion-button{
+.faq .accordion-button {
     background-color: transparent !important;
     border: 0px !important;
     font-size: 24px;
@@ -369,16 +410,18 @@ a{
     color: #282938;
     font-family: "Poppins", sans-serif;
 }
-.faq .accordion-button:focus{
-    box-shadow:0px 0px transparent;
+
+.faq .accordion-button:focus {
+    box-shadow: 0px 0px transparent;
     border: 0px !important;
-     
+
 }
-.faq .accordion-body{
+
+.faq .accordion-body {
     border-bottom: 1px solid #ECECF1;
 }
 
-.faq .accordion-button:not(.collapsed)::after{
+.faq .accordion-button:not(.collapsed)::after {
     background-image: none;
     content: "-";
     transform: translateY(-45%) rotate(0) !important;
@@ -387,7 +430,7 @@ a{
 }
 
 
-.faq .accordion-button::after{
+.faq .accordion-button::after {
     background-image: none;
     content: "+";
     transform: translateY(-45%) rotate(0) !important;
@@ -395,15 +438,15 @@ a{
 
 }
 
-.faq .accordion-item span{
+.faq .accordion-item span {
     margin-right: 59px;
-      font-size: 24px;
+    font-size: 24px;
     font-weight: 500;
     color: #2405F2;
     font-family: "Poppins", sans-serif;
 }
 
-.faq .accordion-item .accordion-body p{
+.faq .accordion-item .accordion-body p {
     margin: 0px 82px;
 }
 
@@ -414,87 +457,98 @@ a{
 /* ======================
          Contact part start
 ======================== */
-  .contact .contact-image {
+.contact .contact-image {
     width: 100%;
     height: 100%;
     background: blue;
     position: relative;
-  }
-  .contact .row{
-    --bs-gutter-x:0px !important;
-  }
-  .contact .row .col-lg-6{
-    --bs-gutter-x:0px !important;
-  }
-  .contact .contact-image img{
+}
+
+.contact .row {
+    --bs-gutter-x: 0px !important;
+}
+
+.contact .row .col-lg-6 {
+    --bs-gutter-x: 0px !important;
+}
+
+.contact .contact-image img {
     width: 100%;
-  }
-  .contact .contact-image .overly{
+}
+
+.contact .contact-image .overly {
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0,0.3);
+    background: rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 0;
     left: 0;
     padding: 96px;
     color: white;
-  }
+}
 
-  .contact .contact-content{
+.contact .contact-content {
     background: #1C1E53;
     padding-top: 107px;
     padding-left: 96px;
     padding-right: 96px;
     padding-bottom: 38px;
-  }
-  .contact .contact-content h3{
-       font-size: 24px;
+}
+
+.contact .contact-content h3 {
+    font-size: 24px;
     font-weight: 500;
     color: #fff;
     font-family: "Poppins", sans-serif;
-  }
-  .contact .contact-content p{
+}
+
+.contact .contact-content p {
     padding-top: 17px;
     padding-bottom: 40px;
-       font-size: 16px;
+    font-size: 16px;
     font-weight: 500;
     color: #fff;
     font-family: "Poppins", sans-serif;
-  }
+}
 
-  .contact .contact-content input{
+.contact .contact-content input {
     width: 100%;
     padding: 18px 32px;
     background: transparent;
-    border: 1px solid rgba(255, 255, 255,0.05);
+    border: 1px solid rgba(255, 255, 255, 0.05);
     border-radius: 8px;
     margin-bottom: 20px;
     color: white;
     font-size: 16px;
-  }
-  .contact .contact-content input::placeholder{
+}
+
+.contact .contact-content input::placeholder {
     color: #F4F6FC;
-  }
-  .contact .contact-content button{
+}
+
+.contact .contact-content button {
     width: 100%;
     background: #FCD980;
     padding: 19px 0px;
     border-radius: 41px;
     border: 0px;
-       font-size: 18px;
+    font-size: 18px;
     font-weight: 500;
     color: #1B1C2B;
     font-family: "Poppins", sans-serif;
     margin-bottom: 42px;
-  }
-  .contact .get-in-touch{
+}
+
+.contact .get-in-touch {
     text-align: center;
-    
-  }
-  .contact .get-in-touch a{
+
+}
+
+.contact .get-in-touch a {
     color: white;
-  }
-  .contact .get-in-touch i {
+}
+
+.contact .get-in-touch i {
     color: #fff;
     position: absolute;
     top: 50%;
@@ -502,11 +556,102 @@ a{
     transform: translateY(-50%);
     transition: .4s;
 }
-  .contact .get-in-touch:hover i {
-   
+
+.contact .get-in-touch:hover i {
+
     left: 353px;
-   
+
 }
+
 /* ======================
          Contact part end
+======================== */
+/* ======================
+         Footer part start
+======================== */
+.footer {
+    background: #1C1E53;
+    padding: 100px 0px;
+    margin-top: 200px;
+}
+
+.footer p {
+        font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255,0.80);
+    font-family: "Poppins", sans-serif;
+    width: 440px;
+    padding-top: 22px;
+}
+.footer .common-title h2{
+    color: white;
+    
+}
+.footer .common-title p{
+     font-size: 16px;
+    font-weight: 400;
+    color: #F4F6FC;
+    padding-top: 14px;
+    padding-bottom: 28px;
+    width: 399px;
+
+}
+.footer .contact-form{
+    width: 517px;
+    background: #FCD980;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .contact-info{
+    width: 205px;
+    padding: 18px 0px;
+}
+.footer .contact-info h4{
+       font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    
+
+}
+.footer .contact-info p{
+       font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    padding-top: 1px;
+    margin-bottom: 0px !important;
+    
+
+}
+.footer .common-title ul{
+    display: flex;
+    column-gap: 26px;
+    padding: 0;
+}
+.footer .common-title ul li i{
+    color: white;
+    font-size: 18px;
+}
+.footertwo p{
+     
+    margin: 0;
+}
+.footertwo{
+    padding: 20px 0px;
+}
+
+.footertwo ul{
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ======================
+         Footer part end
 ======================== */
